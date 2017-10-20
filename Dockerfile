@@ -12,3 +12,5 @@ RUN pip3 install -U \
 	flask \
 	telepot \
 	line-bot-sdk
+
+RUN rm -rf /var/lib/apt/lists/*
